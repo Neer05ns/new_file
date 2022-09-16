@@ -1,0 +1,19 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Purchased </h1><br>
+        
+        <form method="POST", action="{{url_for('prediction')}}">
+           <b> Age :  <input type="Age", name='Age', placeholder="enter your age"> <br><br>
+            EstimatedSalary :  <input type="EstimatedSalary", name='EstimatedSalary', placeholder="enter your EstimatedSalary"> <br><br><br><br>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='static\stock.jpg' alt="stock">
+        
+    </center>
+
+    </body>
+</html>
